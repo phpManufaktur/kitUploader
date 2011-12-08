@@ -31,8 +31,9 @@ if (defined('WB_PATH')) {
 
 // Checking Requirements
 
-$PRECHECK['WB_VERSION'] = array('VERSION' => '2.8', 'OPERATOR' => '>=');
 $PRECHECK['PHP_VERSION'] = array('VERSION' => '5.2.0', 'OPERATOR' => '>=');
+$PRECHECK['WB_VERSION'] = array('VERSION' => '2.8', 'OPERATOR' => '>=');
+$PRECHECK['LEPTON_VERSION'] = array('VERSION' => '1.1', 'OPERATOR' => '>=');
 $PRECHECK['WB_ADDONS'] = array(
     'wblib' => array('VERSION' => '0.65', 'OPERATOR' => '>='),
     'libraryadmin' => array('VERSION' => '1.9', 'OPERATOR' => '>='),
@@ -41,9 +42,9 @@ $PRECHECK['WB_ADDONS'] = array(
 );
 
 // jQueryAdmin should be uninstalled
-$jqa = (file_exists(WB_PATH.'/modules/jqueryadmin/tool.php')) ? 'NO' : 'YES';
+$jqa = (file_exists(WB_PATH.'/modules/jqueryadmin/tool.php')) ? 'INSTALLED' : 'REMOVED';
 $PRECHECK['CUSTOM_CHECKS'] = array(
-        'REMOVED: jQueryAdmin' => array('REQUIRED' => 'YES', 'ACTUAL' => $jqa, 'STATUS' => ($jqa === 'YES'))
+        'jQueryAdmin (replaced by LibraryAdmin)' => array('REQUIRED' => 'REMOVED', 'ACTUAL' => $jqa, 'STATUS' => ($jqa === 'REMOVED'))
 );
 
 

@@ -4,5 +4,5 @@ Ralf Hertsch, Stockholmer Str. 31, 13359 Berlin (Germany)
 http://phpManufaktur.de - ralf.hertsch@phpManufaktur.de
 
 Release 0.10
-
+2011-12-08
 First Beta Release

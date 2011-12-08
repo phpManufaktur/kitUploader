@@ -36,6 +36,7 @@ $module_function      = 'library';
 $module_version       = '0.10';
 $module_status        = 'Beta';
 $module_platform      = '2.8';
+$lepton_platform      = '1.x';
 $module_author        = 'Ralf Hertsch, Berlin (Germany)';
 $module_license       = 'GNU General Public License';
 $module_description   = 'Upload progress for KIT extensions';

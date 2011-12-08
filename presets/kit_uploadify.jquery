@@ -1,0 +1,5 @@
+<!-- position: head -->
+<link href="{LIB_URL}/kit_uploader/plugins/uploadify-2/uploadify.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="{LIB_URL}/kit_uploader/plugins/uploadify-2/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="{LIB_URL}/kit_uploader/plugins/uploadify-2/swfobject.js"></script>
+<script type="text/javascript" src="{LIB_URL}/kit_uploader/plugins/uploadify-2/jquery.uploadify.v2.1.4.min.js"></script>

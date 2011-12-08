@@ -1,0 +1,50 @@
+/*
+.uploadifyQueueItem {
+  background-color: #FFFFFF;
+  border: none;
+  border-bottom: 1px solid #E5E5E5;
+  font: 11px Verdana, Geneva, sans-serif;
+  height: 50px;
+  margin-top: 0;
+  padding: 10px;
+  width: 350px;
+}
+*/
+#custom-queue {
+  border: none; 
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}       
+
+.uploadifyQueueItem {
+    font: 7pt Verdana, Geneva, sans-serif;
+    border: 1px solid #e5e5e5;
+    background-color: transparent; /*#f5f5f5;*/
+    margin: 0;
+    padding: 5px 5px 7px 5px;
+    width: 350px;
+}
+
+.uploadifyError {
+    border: 2px solid #fbcbbc !important;
+    background-color: #fde5dd !important;
+}
+.uploadifyQueueItem .cancel {
+    float: right;
+}
+.uploadifyQueue .completed {
+    background-color: #e5e5e5;
+    border: 1px solid #d6d6d6;
+}
+.uploadifyProgress {
+    background-color: #e5e5e5;
+    margin-top: 10px;
+    width: 99%;
+}
+.uploadifyProgressBar {
+    background-color: #526f88; /*#0099FF;*/
+    width: 1px;
+    height: 3px;
+}        
