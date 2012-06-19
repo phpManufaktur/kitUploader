@@ -19,7 +19,7 @@ kitUploader is an extension for the Customer Relationship Management (CRM) [Keep
 
 #### First Steps
 
-Please visit the [phpManufaktur] [8] to get more informations about **kitIdea** and join the [Addons Support Group] [9].
+Please visit the [phpManufaktur] [8] to get more informations about **kitUploader** and join the [Addons Support Group] [9].
 
 [1]: http://websitebaker2.org "WebsiteBaker Content Management System"
 [2]: http://lepton-cms.org "LEPTON CMS"
